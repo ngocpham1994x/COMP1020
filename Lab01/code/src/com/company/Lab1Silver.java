@@ -2,9 +2,16 @@ package com.company;
 
 /**
  * Template
- * Lab 1 Bronze exercise
+ * Lab 1 Silver exercise
  * COMP 1020
  */
+
+
+/**
+*Student: Ngoc Pham
+ * Student number: 7891063
+ * COMP 1020
+*/
 
 import java.util.*;
 

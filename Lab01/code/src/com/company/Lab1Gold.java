@@ -33,14 +33,14 @@ public class Lab1Gold {
 
         //**********YOUR CODE HERE******************
         int count = 0;  // count valid inputs
-        int x = 0;
+        int x = 0;      //keyboard entry value
 
         while (true) {
             System.out.println("Enter an integer from 1 to 100 (0 to quit): ");
             x = keyboard.nextInt();
             if (1 <= x && x <= 100) {
                 System.out.println("Entry " + x + " accepted");
-                a[count] = x;
+                a[count] = x;    //append valid entries to array
                 count++;
             }
             if (x == 0)
@@ -90,7 +90,7 @@ public class Lab1Gold {
                 System.out.print(array1[i]);
         }
         System.out.println(); // to new line
-    }
+    } //printArray
 
     static double average(int[] a, int n) {
         /* This method calculates the average of valid entries.
@@ -102,7 +102,7 @@ public class Lab1Gold {
         avg = total / n;
 
         return avg;
-    }
+    } //average
 
     static double median(int[] a, int n){
         /*
@@ -122,6 +122,6 @@ public class Lab1Gold {
 
         // median method using 1 line of code
         return med = (1 == n % 2) ? a[n/2] : ((double)(a[n/2] + a[n/2-1]))/2;
-    }
+    } //median
 }// Gold ends
 

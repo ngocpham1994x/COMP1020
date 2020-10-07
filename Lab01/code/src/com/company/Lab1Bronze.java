@@ -5,6 +5,11 @@ package com.company;
  * Lab 1 Bronze exercise
  * COMP 1020
  */
+/**
+ *Student: Ngoc Pham
+ * Student number: 7891063
+ * COMP 1020
+ */
 import java.util.Scanner; //Allows the use of Scanner input
 
 public class Lab1Bronze {
